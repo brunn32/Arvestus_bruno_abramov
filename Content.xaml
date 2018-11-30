@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="Arvestus_Bruno_abramov.Content"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Arvestus_Bruno_abramov"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+        <Pivot Background="DimGray">
+            <PivotItem Background="White" Margin="0,0,0,0">
+                    <PivotItem.Header>
+                        <StackPanel>
+                            <SymbolIcon Symbol="Contact"/>
+                            <TextBlock>Item1</TextBlock>
+                        </StackPanel>
+                    </PivotItem.Header>
+                    <TextBlock Text="Content1"></TextBlock>
+                </PivotItem>
+                <PivotItem Background="White" Margin="0,0,0,0">
+                    <PivotItem.Header>
+                        <StackPanel>
+                            <SymbolIcon Symbol="Shop"/>
+                            <TextBlock>Item1</TextBlock>
+                        </StackPanel>
+                    </PivotItem.Header>
+                    <TextBlock Text="Content2"></TextBlock>
+                </PivotItem>
+                <PivotItem Background="White" Margin="0,0,0,0">
+                    <PivotItem.Header>
+                        <StackPanel>
+                            <SymbolIcon Symbol="Zoom"/>
+                            <TextBlock>Item1</TextBlock>
+                        </StackPanel>
+                    </PivotItem.Header>
+                    <TextBlock Text="Content3"></TextBlock>
+                </PivotItem>
+                <PivotItem Background="White" Margin="0,0,0,0">
+                    <PivotItem.Header>
+                        <StackPanel>
+                            <SymbolIcon Symbol="Attach"/>
+                            <TextBlock>Item1</TextBlock>
+                        </StackPanel>
+                    </PivotItem.Header>
+                    <TextBlock Text="Content4"></TextBlock>
+                </PivotItem>
+        </Pivot>
+        </StackPanel>
+    </Grid>
+</Page>
